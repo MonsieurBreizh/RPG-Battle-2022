@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Empire contre-Attaque</title>
+    <link rel="stylesheet" href="style.css">
+    <style type ="text/css">
+        body{
+            background-image: url("Desert_Background.png");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            }
+
+             #Heros2022{
+                display:flex;
+                flex-direction: column;
+             }
+
+             .perso{
+                width:100px;
+             }
+            </style>
+            <script src="./JavaScript RPGBattle2022.js" async></script>
+    </head>
+      
+    <body>
+        <div class="container">
+            <div id="info">
+                <div id="actions">
+                    <p class="action" id="attaque">Attaque</p>
+                    <p class="action" id="defense">Defense</p>
+                    <p class="action" id="Special">Special</p>
+                </div>
+    
+            <div id="champbattle">
+                <div id = "Heros2022">
+                    <img class = "perso" id = "Naruto" src ="Naruto.png" alt = "Mon Ninja">
+                    <img class = "perso" id = "Goku" src ="Goku.png" alt = "Mon Sayen">
+                    <img class = "perso" id = "Bonhomme avec un masque" src ="bonhomme_masque.png" alt = "Mon bonhomme masqué">
+                    <img class = "perso" id = "Killeur" src ="Killeur.png" alt = "Mon Assassin">
+                </div>
+                <div id = "Enemies">
+                    <div id = "Enemies">
+                        <img class = "perso" id = "Tireur" src ="Tireur.png" alt = "El Sniper">
+                        <img class = "perso" id = "Tireur rouge" src ="Tireur rouge.png" alt = "El Sniper rojo">
+                        <img class = "perso" id = "Bonhomme avec un masque" src ="bonhomme_masque.png" alt = "Mon bonhomme masqué">
+                    </div>
+                </div>
+            
+            </div>
+                <div id="infosperso">
+                    <div class="perso">
+                        <p id="nomperso1">bonhomme_masque</p>
+                        <p id="pvperso1">100</p>
+                        <p>/100</p>
+                        <br>
+                        
+                    </div>
+                    <div class="perso">
+                        <p id="nomperso1">Naruto</p>
+                        <p id="pvperso2">100</p>
+                        <p>/100</p>
+                        
+                    </div>
+                    <div class="perso">
+                        <p id="nomperso1">Goku</p>
+                        <p id="pvperso3">100</p>
+                        <p>/100</p>
+                        
+                    </div>
+                    <div class="perso">
+                        <p id="nomperso1">Killeur</p>
+                        <p id="pvperso4">100</p>
+                        <p>/100</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
